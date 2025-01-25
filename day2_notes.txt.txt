@@ -1,0 +1,51 @@
+Day 2 Notes
+Date: [Insert today's date]
+Duration: 8 hours
+
+What I Learned Today
+Functions in Python:
+
+How to define functions using def and use arguments and return values.
+Created reusable functions for tasks like greeting users and performing basic math operations.
+Learned how functions make code cleaner and easier to manage.
+File Handling:
+
+Learned how to read and write to files using open() with modes like "w" (write) and "r" (read).
+Practiced creating a daily log file to track progress.
+Expense Tracker Project:
+
+Built a functional expense tracker with the following features:
+Adding expenses with a name and amount.
+Viewing all recorded expenses.
+Calculating the total amount of expenses.
+Exiting the program gracefully.
+Debugging and Input Validation:
+
+Learned how to use try/except blocks to handle invalid user input.
+Added validation for menu choices and expense amounts in the Expense Tracker.
+Practiced debugging with print statements to trace program flow and errors.
+Challenges Faced
+Initially struggled to implement input validation for numbers and menu options.
+Found it tricky to ensure negative amounts couldn’t be added to the expense tracker but solved it by adding a condition.
+Debugging the expense tracker required multiple tests to identify edge cases.
+Accomplishments
+Successfully wrote reusable Python functions and integrated them into a mini-project.
+Completed a working Expense Tracker program and pushed it to GitHub.
+Improved problem-solving skills by handling user errors gracefully.
+Code Updated in GitHub
+Updated Calculator Program:
+
+Added a "power" feature to calculate exponentiation.
+Expense Tracker:
+
+Added features for adding, viewing, and calculating expenses.
+Implemented input validation and debugging.
+Plan for Day 3
+Learn error handling in Python (try/except/finally blocks) in more detail.
+Explore lists and dictionaries further to understand data storage and manipulation.
+Start working with Python libraries, such as:
+Pandas: For data handling.
+Matplotlib: For simple data visualization.
+Build a Data Logger mini-project to practice working with files and libraries.
+Reflection
+Today was productive and exciting! I learned essential skills like writing functions, file handling, and debugging, which helped me complete the Expense Tracker project. I'm starting to see how small programs can evolve into meaningful tools. Looking forward to building on this momentum tomorrow!
