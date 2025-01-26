@@ -1,0 +1,28 @@
+Day 3 Notes
+Concepts Learned:
+
+Error handling using try and except to manage invalid user input.
+Working with lists and dictionaries for structured data storage and processing.
+Projects Completed:
+
+Student Grade Tracker:
+Tracks students’ names and grades.
+Calculates average, highest, and lowest grades.
+Added features: Add, view, and remove students.
+To-Do List App:
+Add, view, mark tasks as complete, and remove tasks.
+Skills Gained:
+
+Writing reusable Python functions.
+Implementing basic file handling using Python.
+Using Git to track changes and push updates to GitHub.
+New Python Library:
+
+Pandas: Created and explored basic data frames.
+Git Updates:
+
+All projects and notes pushed to GitHub for version control.
+Plan for Day 4:
+
+Deeper dive into Pandas and data visualization using Matplotlib.
+Explore APIs and working with external data sources.
