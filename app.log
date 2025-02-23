@@ -1,0 +1,2 @@
+2025-02-05 20:23:56,097 - INFO - Division successful: 10 / 2 = 5.0
+2025-02-05 20:23:56,100 - ERROR - Attempted to divide by zero!

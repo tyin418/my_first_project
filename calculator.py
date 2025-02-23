@@ -1,4 +1,3 @@
-# Warm-up exercises
 def add(a, b):
     return a + b
 
@@ -12,31 +11,31 @@ def divide(a, b):
     if b != 0:
         return a / b
     else:
-        return "Error! Division by zero."
+        return "Error: Cannot divide by zero"
 
-def power(a, b):
-    return a ** b
+print("Simple Calculator")
+print("1. Add\n2. Subtract\n3. Multiply\n4. Divide")
 
-print("Welcome to the Calculator!")
-print("1. Add")
-print("2. Subtract")
-print("3. Multiply")
-print("4. Divide")
-print("5. Power")
+try:
+    choice = int(input("Choose an operation (1-4): "))
+    if choice not in [1, 2, 3, 4]:
+        raise ValueError("Invalid choice! Please enter a number between 1 and 4.")
 
-choice = int(input("Enter choice (1-5): "))
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
 
-if choice == 1:
-    print(f"Result: {add(num1, num2)}")
-elif choice == 2:
-    print(f"Result: {subtract(num1, num2)}")
-elif choice == 3:
-    print(f"Result: {multiply(num1, num2)}")
-elif choice == 4:
-    print(f"Result: {divide(num1, num2)}")
-elif choice == 5:
-    print(f"Result: {power(num1, num2)}")
-else:
-    print("Invalid choice!")
+    print(f"User chose: {choice}, Numbers: {num1}, {num2}")
+
+    if choice == 1:
+        print("Result:", add(num1, num2))
+    elif choice == 2:
+        print("Result:", subtract(num1, num2))
+    elif choice == 3:
+        print("Result:", multiply(num1, num2))
+    elif choice == 4:
+        print("Result:", divide(num1, num2))
+
+except ValueError as e:
+    print("Error:", e)
+except Exception as e:
+    print("An unexpected error occurred:", e)
